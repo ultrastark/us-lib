@@ -6,7 +6,8 @@ Service used to show - hide us splash screen inside a Angular project
 Provided inside the index.html to speed up the first Contentful Paint (down to 1.2s)
 
 ## Getting Started
-@TODO : Use [our cli](https://www.npmjs.com/package/@ultrastark/cli) and run ```us add splash-screen```
+Use [our cli](https://www.npmjs.com/package/@ultrastark/cli) and run ```us add splash-screen```
+
 or
 
 Add the following code inside the index.html file (the code may change)
