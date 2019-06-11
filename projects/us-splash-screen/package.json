@@ -1,0 +1,28 @@
+{
+  "name": "@ultrastark/us-splash-screen",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/animations": "^7.2.0",
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "@angular/router": "^7.2.0",
+    "rxjs": "^6.4.0"
+  },
+  "author": {
+    "name": "Raphaël Balet"
+  },
+  "description": "Us splash screen",
+  "keywords": [
+    "Ultrastark",
+    "Splash-screen",
+    "Angular"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultrastark/us-lib.git"
+  }
+}
