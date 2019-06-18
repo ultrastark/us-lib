@@ -153,6 +153,41 @@
           }
         }
       }
+    },
+    "angular-window-size-listener": {
+      "projectType": "library",
+      "root": "projects/angular-window-size-listener",
+      "sourceRoot": "projects/angular-window-size-listener/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angular-window-size-listener/tsconfig.lib.json",
+            "project": "projects/angular-window-size-listener/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-window-size-listener/src/test.ts",
+            "tsConfig": "projects/angular-window-size-listener/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-window-size-listener/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular-window-size-listener/tsconfig.lib.json",
+              "projects/angular-window-size-listener/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "us-lib"
 }

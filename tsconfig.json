@@ -24,6 +24,12 @@
       ],
       "us-splash-screen/*": [
         "dist/us-splash-screen/*"
+      ],
+      "angular-window-size-listener": [
+        "dist/angular-window-size-listener"
+      ],
+      "angular-window-size-listener/*": [
+        "dist/angular-window-size-listener/*"
       ]
     }
   }
