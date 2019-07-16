@@ -16,11 +16,18 @@ Add the following code inside the index.html file (the code may change)
   /.../
 
   <!-- US Splash Screen css-->
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://ultrastark.ch/assets/splash-screen/splash-screen.css"
-  />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+      href="https://assets.ultrastark.ch/splash-screen/splash-screen.css"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://assets.ultrastark.ch/splash-screen/splash-screen.css"
+      />
+    </noscript>
 </head>
 
 <body>
