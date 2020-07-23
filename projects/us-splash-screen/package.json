@@ -1,12 +1,12 @@
 {
   "name": "@ultrastark/us-splash-screen",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "peerDependencies": {
-    "@angular/animations": "^8.0.0",
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0",
-    "@angular/router": "^8.0.0",
-    "rxjs": "^6.5.2"
+    "@angular/animations": "^10.0.5",
+    "@angular/common": "^10.0.5",
+    "@angular/core": "^10.0.5",
+    "@angular/router": "^10.0.5",
+    "rxjs": "^6.6.0"
   },
   "author": {
     "name": "Raphaël Balet"
