@@ -2,7 +2,7 @@
   "name": "us-lib",
   "version": "0.1.0",
   "scripts": {
-    "build us-splash-screen": "ng build us-splash-screen",
+    "build us-splash-screen": "ng build us-splash-screen --prod",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
